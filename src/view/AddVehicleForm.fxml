@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="addVehicleFormContext" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #dfe6e9;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddVehicleFormController">
+   <children>
+      <ComboBox fx:id="vehiclesAddToBe" layoutX="472.0" layoutY="31.0" prefHeight="40.0" prefWidth="214.0" style="-fx-background-radius: 12;" />
+      <JFXButton buttonType="RAISED" layoutX="504.0" layoutY="353.0" onAction="#vehicleAdd" prefHeight="55.0" prefWidth="150.0" style="-fx-background-color: #2980b9;" text="Add Vehicle" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="327.0" layoutY="36.0" text="Vehicle Type">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtAddVehicleNum" layoutX="207.0" layoutY="131.0" onAction="#moveWeight" prefHeight="40.0" prefWidth="287.0" style="-fx-background-radius: 10;" />
+      <Label layoutX="11.0" layoutY="136.0" text="Vehical Number">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="11.0" layoutY="204.0" text="Maximum Weight">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtAddMaxWeight" layoutX="207.0" layoutY="199.0" onAction="#movePassengers" prefHeight="40.0" prefWidth="287.0" style="-fx-background-radius: 11;" />
+      <Label layoutX="14.0" layoutY="270.0" text="No.of.passengers">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtAddNoPassenger" layoutX="207.0" layoutY="265.0" prefHeight="40.0" prefWidth="287.0" style="-fx-background-radius: 11;" />
+   </children>
+</AnchorPane>
