@@ -1,11 +1,10 @@
-#Inventory Management System<br>
+#Vehicle Parking System<br>
 
-This project is done by using MVC Architecture and MySQL database
+This project is done by using MVC Architecture
 
 *MVC Architecture<br>
 *Java<br>
 *javaFx<br>
-*MySQL
 
 <b>#Login<br></b>
 ![login](src/assets/projects/login.png)<br>
