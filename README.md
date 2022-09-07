@@ -1,6 +1,6 @@
 #Vehicle Parking System<br>
 
-This project is done by using MVC Architecture
+This project is done by using MVC Architecture for OOP Module
 
 *MVC Architecture<br>
 *Java<br>
