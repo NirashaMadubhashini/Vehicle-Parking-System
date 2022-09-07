@@ -9,13 +9,14 @@ This project is done by using MVC Architecture for OOP Module
 <b>#Login<br></b>
 ![login](src/assets/projects/login.png)<br>
 <b>#DashBoard<br><b>
-![adminDash](src/assets/projects/dashboard.png)<br>
-<b>#Add<br><b>
+![delivery](src/assets/projects/dilivery.png)<br>
+![park](src/assets/projects/park.png)<br>
+<b>#Add Vehicle<br><b>
 ![add](src/assets/projects/add.png)<br>
-<b>#Manage<br><b>
-![manage](src/assets/projects/manage.png)<br>
-<b>#PlaceOrder<br></b>
-![order](src/assets/projects/placeOrder.png)
+<b>#Add Driver<br><b>
+![manage](src/assets/projects/add%20driver.png)<br>
+<b>#Manage<br></b>
+![order](src/assets/projects/manage.png)
 
 
 
