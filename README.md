@@ -8,8 +8,9 @@ This project is done by using MVC Architecture for OOP Module
 
 <b>#Login<br></b>
 ![login](src/assets/projects/login.png)<br>
-<b>#DashBoard<br><b>
+<b>#Delivery DashBoard<br><b>
 ![delivery](src/assets/projects/dilivery.png)<br>
+<b>#Parking DashBoard<br><b>
 ![park](src/assets/projects/park.png)<br>
 <b>#Add Vehicle<br><b>
 ![add](src/assets/projects/add.png)<br>
